@@ -1,0 +1,29 @@
+<!type html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+<script type="text/javascript" language="javascript">
+
+document.write("<center>"); //centers each line
+var character = prompt("Which character would you like to use for your pyramid?");
+var rows = prompt("How many rows would you like to have?");
+for(var x = 0; x < rows; x++) //a loop that counts the number of rows
+{
+	for(var i = 0; i <= x; i++)// a loop that counts from 0 to whatever current row number
+	{
+		document.write(character);//write the user-inputted character
+	}
+	document.write("<br/>"); //line break after every row
+}
+document.write("</center>"); //close the center tag
+
+</script>
+
+</body>
+
+</html>
